@@ -18,7 +18,7 @@ acionar irrigação e alertas). ODS 2, 8, 9, 13.
 
 ## 🔗 Links da entrega
 - 🎥 **Vídeo de demonstração (YouTube):** https://youtu.be/_CTZjjxcHHg
-- 🎤 **Vídeo Pitch (YouTube):** _COLE_AQUI_O_LINK_
+- 🎤 **Vídeo Pitch (YouTube):** https://youtu.be/D5cTgb1hQpg
 - 💻 **Repositório:** https://github.com/kaiky06301/agrosat-dotnet
 
 ## Stack
