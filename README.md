@@ -125,21 +125,6 @@ Para testar sem credenciais Oracle:
 
 ---
 
-## ⚠️ O que o Kaiky precisa fazer manualmente
-- [ ] **Credenciais Oracle**: colocar seu RM e senha em `appsettings.json`
-      (o valor atual é placeholder). Não comitar a senha real no GitHub.
-- [ ] **Regenerar a migration** com `dotnet ef migrations add InitialCreate`
-      depois do `dotnet restore` (a de exemplo é só ponto de partida).
-- [ ] **Subir no GitHub**: criar o repositório e dar push. O `.gitignore` já
-      ignora `bin/`, `obj/` e `*.db`.
-- [ ] **Vídeo demo + pitch** (apresentação REMOTA): gravar mostrando o Swagger,
-      fazendo um POST e um GET em pelo menos um recurso, e citando os
-      relacionamentos entre entidades e as ODS 2, 8, 9, 13.
-- [ ] Conferir a versão do pacote `Oracle.EntityFrameworkCore` (8.23.60 no
-      `.csproj`); se o `restore` reclamar, ajuste para a versão 8.x disponível.
-
----
-
 ## Comandos úteis
 ```bash
 dotnet build                       # compilar
