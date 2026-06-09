@@ -9,6 +9,18 @@ acionar irrigação e alertas). ODS 2, 8, 9, 13.
 > `CONTRATO-DOMINIO.md` e o esquema Oracle em `database/01_ddl.sql`, para
 > conversar com as outras disciplinas (Oracle, API Java, Mobile, IoT).
 
+## 👥 Integrantes (Grupo 4 — Turma 2TDSR)
+- RM 565733 — Erick Bernardes Bradaschia
+- RM 564054 — Gabriel Santos Claudino
+- RM 565060 — Jonathan Moreira Gomes
+- RM 566067 — Kaiky de Oliveira Silva
+- RM 559523 — Lucas Fortes de Lima
+
+## 🔗 Links da entrega
+- 🎥 **Vídeo de demonstração (YouTube):** _COLE_AQUI_O_LINK_
+- 🎤 **Vídeo Pitch (YouTube):** _COLE_AQUI_O_LINK_
+- 💻 **Repositório:** https://github.com/kaiky06301/agrosat-dotnet
+
 ## Stack
 - ASP.NET Core Web API (.NET 8)
 - Entity Framework Core 8
