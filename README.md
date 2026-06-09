@@ -17,7 +17,7 @@ acionar irrigação e alertas). ODS 2, 8, 9, 13.
 - RM 559523 — Lucas Fortes de Lima
 
 ## 🔗 Links da entrega
-- 🎥 **Vídeo de demonstração (YouTube):** _COLE_AQUI_O_LINK_
+- 🎥 **Vídeo de demonstração (YouTube):** https://youtu.be/_CTZjjxcHHg
 - 🎤 **Vídeo Pitch (YouTube):** _COLE_AQUI_O_LINK_
 - 💻 **Repositório:** https://github.com/kaiky06301/agrosat-dotnet
 
