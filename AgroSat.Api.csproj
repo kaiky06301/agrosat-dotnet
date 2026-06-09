@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>AgroSat.Api</RootNamespace>
+    <AssemblyName>AgroSat.Api</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Swagger / OpenAPI -->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+
+    <!-- Entity Framework Core -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+
+    <!-- Provider Oracle (banco de producao da FIAP) -->
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.23.60" />
+
+    <!-- Providers alternativos para TESTE local (descomente o que for usar).
+         Tambem e preciso ajustar Program.cs / AppDbContext. -->
+    <!-- <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.6" /> -->
+    <!-- <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.6" /> -->
+  </ItemGroup>
+
+</Project>
